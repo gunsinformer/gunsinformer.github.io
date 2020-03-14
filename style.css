@@ -1,0 +1,212 @@
+
+
+p { 
+	
+	font-size: 30px;
+	color: red;
+}
+
+h1 { 
+  
+  font-size: 30x;
+  color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  width: 150px;
+  height: 50px;
+}
+
+h2{ 
+  
+  font-size: 30px;
+  color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  width: 170px;
+  height: 90px;
+}
+
+h3 { 
+  
+  font-size: 30px;
+  color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  width: 150px;
+  height: 50px;
+}
+
+
+  body { 
+    background:  url("9.jpg") ;   
+}
+
+table{
+  font-size: 30px;
+  color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  background-color: rgba(128,128,128,0.5);
+  }
+
+  td{
+  font-size: 30px;
+  color: red;
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  background-color: rgba(128,128,128,0.5);
+  }
+
+  td:hover{
+    background-color: orange;
+    font-size: 35px;
+  }
+li:before {
+content: "\f015"; 
+color: #aaaaaa;
+margin-right: 10px; 
+}
+
+
+input:focus { 
+  background: #ffff94;
+  border: 5px solid blue; 
+
+}
+
+input:invalid {
+  border: 2px solid red; 
+}
+input:valid {
+ border: 2px solid green;
+}
+
+a:link {
+color: #036;s
+}
+a:visited {
+color : #606; 
+}
+a:hover {
+color : #f00; 
+}
+a:active {
+color : #ff0; 
+}
+
+table {
+border-spacing: 0;
+width: 400px;
+border: 1px solid black;
+}++
+
+td, th {
+padding: 5px;
+border: 1px solid black;
+}
+
+tr:hover {
+background: #fc0;
+}
+
+block-animation {
+width: 250px;
+padding: 20px;
+text-align: center;
+background-color: #2196F3;
+color: white;
+border-radius: 10px;
+font-size: 30px;
+transition: 1s linear;
+}
+
+.block-animation:hover {
+background-color: lightgreen;
+color: black;
+border-radius: 50px;
+}
+
+p {
+animation-duration: 3s;
+animation-name: slidein;
+color: black
+}
+@keyframes slidein {
+from {
+margin-left: 100%;
+width: 300%;
+}
+to {
+margin-left: 0%;
+width: 100%;
+}
+
+body {  margin: 40px; }
+.circle {
+background: green;
+border-radius: 100%;
+width: 100px;
+height: 100px;
+animation: pulsing 2s infinite;
+}
+
+@keyframes pulsing {
+0% {
+  transform: scale(0.5, 0.5);
+}
+50% {
+  transform: scale(1.0, 1.0);
+}
+100% {
+  transform: scale(0.5, 0.5);
+}
+}
+
+.block_1 {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+      }
+       .block_2 {
+        width: 100px;
+        height: 50px;
+        background-color: yellow;
+      }
+       .block_3 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+       .block_4 {
+        width: 200px;
+        height: 70px;
+        background-color: blue;
+      }
+      #container {
+        display: flex;
+        background-color: lightgray;
+        border: 1px solid gray;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
